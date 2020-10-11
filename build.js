@@ -1,22 +1,37 @@
-const fs = require('fs');
-const colors = require('./src/colors');
+const fs = require("fs/promises");
+const path = require("path");
 
-const files = ['moonlight-ii.json', 'moonlight-ii-italic.json'];
-const legacyFiles = ['moonlight.json', 'moonlight-italic.json'];
+const package = require("./package.json");
+const colors = require("./src/colors");
 
-files.forEach(file => {
-  let text = fs.readFileSync(`./src/${file}`, 'utf8');
+const paths = {
+  src: path.resolve(__dirname, "src"),
+  dist: path.resolve(__dirname, "themes"),
+};
 
-  Object.entries(colors).forEach(([colorVar, hexStr]) => {
-    text = text.replace(new RegExp(`\\${colorVar}`, 'g'), hexStr);
-  });
+(async () => {
+  await fs.rmdir(paths.dist, { recursive: true });
+  await fs.mkdir(paths.dist);
 
-  fs.writeFileSync(`./themes/${file}`, text);
-});
+  const regexp = new RegExp(Object.keys(colors).join("|"), "g");
 
-legacyFiles.forEach(legacyFile => {
-  fs.writeFileSync(
-    `./themes/${legacyFile}`,
-    fs.readFileSync(`./src/${legacyFile}`, 'utf8')
+  await Promise.all(
+    package.contributes.themes.map(async (theme) => {
+      const basename = path.basename(theme.path);
+
+      console.log(`[build] Creating theme from '${basename}'`);
+
+      const srcTheme = await fs.readFile(
+        path.join(paths.src, basename),
+        "utf-8",
+      );
+
+      console.log(`[build] Writing theme to '${theme.path}'`);
+
+      return fs.writeFile(
+        theme.path,
+        srcTheme.replace(regexp, (matched) => colors[matched]),
+      );
+    }),
   );
-});
+})();

@@ -1,0 +1,8 @@
+{
+  "ignore": [".git", "*.test.js", "*.ignore", "schema.graphql"],
+  "exec": "yarn build",
+  "watch": ["./src/"],
+  "ext": "js json ts",
+  "signal": "SIGINT",
+  "restartable": "rs"
+}

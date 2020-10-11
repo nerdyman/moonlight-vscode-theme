@@ -1,23 +1,26 @@
 {
-  "name": "moonlight",
-  "displayName": "Moonlight",
-  "description": "A VS Code theme with bubblegum colors on a moonlit background.",
-  "version": "0.10.4",
-  "publisher": "atomiks",
+  "name": "pure-redux",
+  "displayName": "Pure Redux",
+  "description": "A VS Code theme base on Pure Syntax and MoonLight.",
+  "version": "0.0.1",
+  "publisher": "nerdyman",
   "license": "SEE LICENSE IN LICENSE.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/atomiks/moonlight-vscode-theme"
+    "url": "https://github.com/nerdyman/pure-redux-theme"
   },
   "keywords": [
     "Theme",
     "Dark Theme",
-    "Moonlight",
-    "Night Theme"
+    "Night Theme",
+    "Pure",
+    "Pure Redux",
+    "Pure Syntax"
   ],
   "scripts": {
     "publish": "vsce publish",
-    "build": "node build"
+    "build": "node build",
+    "watch": "nodemon build.js"
   },
   "galleryBanner": {
     "color": "#061526",
@@ -33,29 +36,15 @@
   "contributes": {
     "themes": [
       {
-        "label": "Moonlight II",
+        "label": "Pure Redux Italic",
         "uiTheme": "vs-dark",
-        "path": "./themes/moonlight-ii.json"
-      },
-      {
-        "label": "Moonlight II Italic",
-        "uiTheme": "vs-dark",
-        "path": "./themes/moonlight-ii-italic.json"
-      },
-      {
-        "label": "Moonlight",
-        "uiTheme": "vs-dark",
-        "path": "./themes/moonlight.json"
-      },
-      {
-        "label": "Moonlight Italic",
-        "uiTheme": "vs-dark",
-        "path": "./themes/moonlight-italic.json"
+        "path": "./themes/pure-redux-italic.json"
       }
     ]
   },
   "devDependencies": {
-    "prettier": "^1.19.1",
-    "vsce": "^1.71.0"
+    "nodemon": "^2.0.4",
+    "prettier": "^2.1.2",
+    "vsce": "^1.81.1"
   }
 }
