@@ -145,7 +145,7 @@
     "panelTitle.inactiveForeground": "--moonlight-gray-7",
     "panelTitle.activeForeground": "--moonlight-gray-10",
     "panelTitle.activeBorder": "--moonlight-blue",
-    "terminalCursor.foreground": "--moonlight-dark-blue",
+    "terminalCursor.foreground": "--moonlight-blue",
     "diffEditor.insertedTextBackground": "--moonlight-green15",
     "diffEditor.removedTextBackground": "--moonlight-dark-red20",
     "notifications.background": "--moonlight-gray-2",
@@ -169,7 +169,7 @@
     "pickerGroup.foreground": "--moonlight-blue",
     "gitDecoration.deletedResourceForeground": "--moonlight-dark-reddd",
     "gitDecoration.conflictingResourceForeground": "--moonlight-yellowcc",
-    "gitDecoration.modifiedResourceForeground": "--pure-redux-tan",
+    "gitDecoration.modifiedResourceForeground": "--pure-redux-tanee",
     "gitDecoration.untrackedResourceForeground": "#77e0c6dd",
     "gitDecoration.ignoredResourceForeground": "#777fabaa",
     "gitlens.trailingLineForegroundColor": "--moonlight-gray-7aa",
@@ -443,7 +443,7 @@
       ],
       "settings": {
         "fontStyle": "",
-        "foreground": "--moonlight-yellow"
+        "foreground": "--moonlight-green"
       }
     },
     {
@@ -530,7 +530,7 @@
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "--moonlight-orange"
+        "foreground": "--moonlight-yellow"
       }
     },
     {
@@ -650,7 +650,7 @@
         "entity.other.attribute-name.pseudo-element"
       ],
       "settings": {
-        "foreground": "--moonlight-orange"
+        "foreground": "--moonlight-teal"
       }
     },
     {
@@ -723,7 +723,7 @@
       "name": "Escape Characters",
       "scope": ["constant.character.escape"],
       "settings": {
-        "foreground": "--moonlight-teal"
+        "foreground": "--moonlight-cyan"
       }
     },
     {

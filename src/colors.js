@@ -10,8 +10,8 @@ module.exports = {
   "--moonlight-yellow": "#ffe066",
   "--moonlight-orange": "#ffa94d",
   "--moonlight-dark-orange": "#FA8677",
-  "--moonlight-teal": "#c2fa88",
-  "--moonlight-green": "#b8f975",
+  "--moonlight-teal": "#92ff8f",
+  "--moonlight-green": "#c2fa88",
   "--moonlight-purple": "#cf9eff",
   "--moonlight-pink": "#fca7ea",
   // Comments
