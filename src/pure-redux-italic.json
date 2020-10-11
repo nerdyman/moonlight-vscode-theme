@@ -767,7 +767,7 @@
         "source.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "--moonlight-blue"
+        "foreground": "--moonlight-yellow"
       }
     },
     {
@@ -776,7 +776,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "--moonlight-sky-blue"
+        "foreground": "--moonlight-purple"
       }
     },
     {
@@ -785,7 +785,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "--moonlight-red"
+        "foreground": "--moonlight-light-red"
       }
     },
     {
@@ -803,7 +803,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "--moonlight-yellow"
+        "foreground": "--moonlight-cyan"
       }
     },
     {
