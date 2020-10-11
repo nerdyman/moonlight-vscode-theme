@@ -1,5 +1,6 @@
 module.exports = {
-  "--moonlight-desaturated-gray": "#7f85a3",
+  // Null/undefined
+  "--moonlight-desaturated-gray": "#c6c4ec",
   "--moonlight-dark-blue": "#6767fb",
   "--moonlight-blue": "#9797ff",
   "--moonlight-sky-blue": "#74c0fc",
@@ -15,7 +16,7 @@ module.exports = {
   "--moonlight-purple": "#cf9eff",
   "--moonlight-pink": "#fca7ea",
   // Comments
-  "--moonlight-indigo": "#6A6AA6",
+  "--moonlight-indigo": "#8285c1",
   "--moonlight-bright-cyan": "#b4f9f8",
 
   "--moonlight-gray-10-alt": "#bcc4d6",
