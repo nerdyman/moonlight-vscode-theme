@@ -1,31 +1,41 @@
 module.exports = {
-  '--moonlight-desaturated-gray': '#7f85a3',
-  '--moonlight-dark-blue': '#3e68d7',
-  '--moonlight-blue': '#82aaff',
-  '--moonlight-sky-blue': '#65bcff',
-  '--moonlight-cyan': '#86e1fc',
-  '--moonlight-red': '#ff757f',
-  '--moonlight-dark-red': '#ff5370',
-  '--moonlight-light-red': '#ff98a4',
-  '--moonlight-yellow': '#ffc777',
-  '--moonlight-orange': '#ff966c',
-  '--moonlight-dark-orange': '#fc7b7b',
-  '--moonlight-teal': '#4fd6be',
-  '--moonlight-green': '#c3e88d',
-  '--moonlight-purple': '#c099ff',
-  '--moonlight-pink': '#fca7ea',
-  '--moonlight-indigo': '#7a88cf',
-  '--moonlight-bright-cyan': '#b4f9f8',
+  "--moonlight-desaturated-gray": "#7f85a3",
+  "--moonlight-dark-blue": "#6767fb",
+  "--moonlight-blue": "#9797ff",
+  "--moonlight-sky-blue": "#74c0fc",
+  "--moonlight-cyan": "#83f1ff",
+  "--moonlight-red": "#ff757f",
+  "--moonlight-dark-red": "#ff5370",
+  "--moonlight-light-red": "#f783ac",
+  "--moonlight-yellow": "#ffe066",
+  "--moonlight-orange": "#ffa94d",
+  "--moonlight-dark-orange": "#FA8677",
+  "--moonlight-teal": "#c2fa88",
+  "--moonlight-green": "#b8f975",
+  "--moonlight-purple": "#cf9eff",
+  "--moonlight-pink": "#fca7ea",
+  // Comments
+  "--moonlight-indigo": "#6A6AA6",
+  "--moonlight-bright-cyan": "#b4f9f8",
 
-  '--moonlight-gray-10-alt': '#bcc4d6',
-  '--moonlight-gray-10': '#c8d3f5',
-  '--moonlight-gray-9': '#b4c2f0',
-  '--moonlight-gray-8': '#a9b8e8',
-  '--moonlight-gray-7': '#828bb8',
-  '--moonlight-gray-6': '#444a73',
-  '--moonlight-gray-5': '#2f334d',
-  '--moonlight-gray-4': '#222436',
-  '--moonlight-gray-3': '#1e2030',
-  '--moonlight-gray-2': '#191a2a',
-  '--moonlight-gray-1': '#131421'
+  "--moonlight-gray-10-alt": "#bcc4d6",
+  "--moonlight-gray-10": "#f2f2f7",
+  "--moonlight-gray-9": "#a3a5da",
+  "--moonlight-gray-8": "#bab9f3",
+  // Explorer text, code tree
+  "--moonlight-gray-7": "#9999b8",
+  // Line numbers, indent border
+  "--moonlight-gray-6": "#444a73",
+  // Active line background
+  "--moonlight-gray-5": "#303050",
+  // Editor Background
+  "--moonlight-gray-4": "#27273f",
+  // Chrome background
+  "--moonlight-gray-3": "#212136",
+  // Input backgrounds, dialog backgrounds
+  "--moonlight-gray-2": "#1b1b2c",
+  "--moonlight-gray-1": "#131421",
+
+  // Additional colours
+  "--pure-redux-tan": "#e2c08d",
 };

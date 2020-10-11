@@ -1,14 +1,14 @@
 {
-  "name": "Moonlight II",
+  "name": "Pure Redux",
   "type": "dark",
   "colors": {
     "foreground": "--moonlight-gray-10",
-    "focusBorder": "--moonlight-blue",
+    "focusBorder": "--moonlight-dark-blue",
     "contrastBorder": "--moonlight-gray-2",
     "editorCursor.foreground": "--moonlight-blue",
     "editorRuler.foreground": "--moonlight-gray-6bb",
     "scrollbar.shadow": "#00000022",
-    "tree.indentGuidesStroke": "--moonlight-gray-766",
+    "tree.indentGuidesStroke": "--moonlight-gray-744",
     "editorLink.activeForeground": "--moonlight-gray-10",
     "selection.background": "--moonlight-gray-10",
     "progressBar.background": "--moonlight-blue",
@@ -38,16 +38,16 @@
     "editorOverviewRuler.border": "--moonlight-gray-4",
     "editorHoverWidget.background": "#1b1d2c",
     "editorHoverWidget.border": "#000000aa",
-    "editorIndentGuide.background": "--moonlight-gray-6bb",
+    "editorIndentGuide.background": "--moonlight-gray-688",
     "editorIndentGuide.activeBackground": "--moonlight-gray-7aa",
     "editorGroupHeader.tabsBackground": "--moonlight-gray-3",
     "editorGroup.border": "--moonlight-gray-2",
-    "editorGutter.modifiedBackground": "--moonlight-blue66",
-    "editorGutter.addedBackground": "--moonlight-green66",
-    "editorGutter.deletedBackground": "--moonlight-dark-redaa",
+    "editorGutter.modifiedBackground": "--pure-redux-tanaa",
+    "editorGutter.addedBackground": "--moonlight-greenbb",
+    "editorGutter.deletedBackground": "--moonlight-dark-redbb",
     "tab.activeBorder": "--moonlight-blue",
     "tab.activeModifiedBorder": "--moonlight-gray-7",
-    "tab.unfocusedActiveBorder": "--moonlight-gray-7",
+    "tab.unfocusedActiveBorder": "--moonlight-blue77",
     "tab.activeForeground": "--moonlight-gray-10",
     "tab.activeBackground": "--moonlight-gray-4",
     "tab.inactiveForeground": "--moonlight-gray-7",
@@ -79,7 +79,7 @@
     "sideBarSectionHeader.border": "--moonlight-gray-460",
     "input.background": "--moonlight-gray-2",
     "input.foreground": "--moonlight-gray-10",
-    "input.placeholderForeground": "--moonlight-gray-10aa",
+    "input.placeholderForeground": "--moonlight-gray-7aa",
     "input.border": "#00000066",
     "inputValidation.errorBackground": "#c53b53",
     "inputValidation.errorForeground": "#ffffff",
@@ -145,7 +145,7 @@
     "panelTitle.inactiveForeground": "--moonlight-gray-7",
     "panelTitle.activeForeground": "--moonlight-gray-10",
     "panelTitle.activeBorder": "--moonlight-blue",
-    "terminalCursor.foreground": "--moonlight-blue",
+    "terminalCursor.foreground": "--moonlight-dark-blue",
     "diffEditor.insertedTextBackground": "--moonlight-green15",
     "diffEditor.removedTextBackground": "--moonlight-dark-red20",
     "notifications.background": "--moonlight-gray-2",
@@ -154,7 +154,7 @@
     "badge.background": "--moonlight-dark-blue",
     "badge.foreground": "#ffffff",
     "button.background": "--moonlight-dark-blue",
-    "button.hoverBackground": "--moonlight-sky-bluecc",
+    "button.hoverBackground": "--moonlight-bluedd",
     "extensionButton.prominentBackground": "--moonlight-dark-blue",
     "extensionButton.prominentHoverBackground": "--moonlight-sky-bluecc",
     "peekView.border": "#00000030",
@@ -169,7 +169,7 @@
     "pickerGroup.foreground": "--moonlight-blue",
     "gitDecoration.deletedResourceForeground": "--moonlight-dark-reddd",
     "gitDecoration.conflictingResourceForeground": "--moonlight-yellowcc",
-    "gitDecoration.modifiedResourceForeground": "--moonlight-blueee",
+    "gitDecoration.modifiedResourceForeground": "--pure-redux-tan",
     "gitDecoration.untrackedResourceForeground": "#77e0c6dd",
     "gitDecoration.ignoredResourceForeground": "#777fabaa",
     "gitlens.trailingLineForegroundColor": "--moonlight-gray-7aa",
@@ -443,7 +443,7 @@
       ],
       "settings": {
         "fontStyle": "",
-        "foreground": "--moonlight-green"
+        "foreground": "--moonlight-yellow"
       }
     },
     {
@@ -530,7 +530,7 @@
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "--moonlight-yellow"
+        "foreground": "--moonlight-orange"
       }
     },
     {
@@ -553,7 +553,7 @@
         "support.type.vendored.property-name"
       ],
       "settings": {
-        "foreground": "--moonlight-blue"
+        "foreground": "--moonlight-gray-10"
       }
     },
     {
@@ -650,7 +650,7 @@
         "entity.other.attribute-name.pseudo-element"
       ],
       "settings": {
-        "foreground": "--moonlight-teal"
+        "foreground": "--moonlight-orange"
       }
     },
     {
@@ -723,7 +723,7 @@
       "name": "Escape Characters",
       "scope": ["constant.character.escape"],
       "settings": {
-        "foreground": "--moonlight-cyan"
+        "foreground": "--moonlight-teal"
       }
     },
     {
