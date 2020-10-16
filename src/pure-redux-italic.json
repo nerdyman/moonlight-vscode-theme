@@ -39,7 +39,7 @@
     "editorHoverWidget.background": "#1b1d2c",
     "editorHoverWidget.border": "#000000aa",
     "editorIndentGuide.background": "--moonlight-gray-688",
-    "editorIndentGuide.activeBackground": "--moonlight-gray-7aa",
+    "editorIndentGuide.activeBackground": "--moonlight-gray-866",
     "editorGroupHeader.tabsBackground": "--moonlight-gray-3",
     "editorGroup.border": "--moonlight-gray-2",
     "editorGutter.modifiedBackground": "--pure-redux-tanaa",
@@ -103,7 +103,7 @@
     "list.focusForeground": "--moonlight-gray-10",
     "list.highlightForeground": "--moonlight-cyan",
     "list.warningForeground": "--moonlight-yellowcc",
-    "terminal.foreground": "--moonlight-gray-10-alt",
+    "terminal.foreground": "--moonlight-gray-10",
     "terminal.selectionBackground": "--moonlight-gray-1044",
     "terminal.ansiWhite": "--moonlight-gray-10",
     "terminal.ansiBlack": "#000000",
@@ -113,7 +113,7 @@
     "terminal.ansiMagenta": "--moonlight-pink",
     "terminal.ansiRed": "--moonlight-red",
     "terminal.ansiYellow": "--moonlight-yellow",
-    "terminal.ansiBrightWhite": "--moonlight-gray-10",
+    "terminal.ansiBrightWhite": "#ffffff",
     "terminal.ansiBrightBlack": "--moonlight-gray-7",
     "terminal.ansiBrightBlue": "--moonlight-blue",
     "terminal.ansiBrightCyan": "--moonlight-cyan",
@@ -354,7 +354,7 @@
       "name": "Tag",
       "scope": ["entity.name.tag", "meta.tag", "markup.deleted.git_gutter"],
       "settings": {
-        "foreground": "--moonlight-red"
+        "foreground": "--moonlight-light-red"
       }
     },
     {
@@ -762,6 +762,13 @@
       }
     },
     {
+      "name": "JSON - punctuation",
+      "scope": ["meta.structure.dictionary.json punctuation"],
+      "settings": {
+        "foreground": "--moonlight-gray-9"
+      }
+    },
+    {
       "name": "JSON Key - Level 0",
       "scope": [
         "source.json meta.structure.dictionary.json support.type.property-name.json"
@@ -803,7 +810,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "--moonlight-cyan"
+        "foreground": "--moonlight-sky-blue"
       }
     },
     {
@@ -812,7 +819,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "--moonlight-teal"
+        "foreground": "--moonlight-purple"
       }
     },
     {
@@ -821,7 +828,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "--moonlight-blue"
+        "foreground": "--moonlight-yellow"
       }
     },
     {
@@ -1013,6 +1020,12 @@
       "scope": "token.debug-token",
       "settings": {
         "foreground": "--moonlight-purple"
+      }
+    },
+    {
+      "scope": ["entity.name.tag.yaml", "entity.name.tag.html"],
+      "settings": {
+        "foreground": "--moonlight-yellow"
       }
     }
   ]
